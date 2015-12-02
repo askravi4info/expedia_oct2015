@@ -30,7 +30,7 @@ Feature: Verify the Flight Search Functionality
   Scenario:Verify the sort order of the search results are by price
     And user search for a future valid flights
     Then verify the search results are displayed by price
-    
+
   Scenario:Verify different error messages when searching for past flights
     And user should select the flights tab
     And user makes a past date flight search
