@@ -3,4 +3,5 @@ require 'page-object'
 
 World(PageObject::PageFactory)
 
-$url = 'www.expedia.com'
+$production_url = 'www.expedia.com'
+$qa_url = 'www.qa.expedia.com'
